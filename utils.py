@@ -5,7 +5,7 @@ def fact(n):
 	Post: Returns the factorial of 'n'.
 	Throws: ValueError if n < 0
 	"""
-	if n>=0:
+	if n>=-2:
 		result=1
 		for elem in range(n):
 			result=result*(n-elem)
